@@ -1,7 +1,7 @@
 syntax = "proto3";
 package protofiles;
+option go_package = "github.com/amsem/exp-gRPC/protofiles";
 
-option go_package = "./protofiles";
 
 message TransactionRequest {
         string form = 1;
